@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DB51D6893420176F3B894B /* Pods_OpenAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8847EA1E830311BFF6B6A /* Pods_OpenAI.framework */; };
+		3771C2542952C6EA008AD9D6 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 3771C2532952C6EA008AD9D6 /* animation.json */; };
+		37A48CF22951E126006FC71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A48CF12951E126006FC71B /* AppDelegate.swift */; };
+		37A48CF42951E126006FC71B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A48CF32951E126006FC71B /* SceneDelegate.swift */; };
+		37A48CF62951E126006FC71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A48CF52951E126006FC71B /* ViewController.swift */; };
+		37A48CF92951E126006FC71B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A48CF72951E126006FC71B /* Main.storyboard */; };
+		37A48CFB2951E129006FC71B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A48CFA2951E129006FC71B /* Assets.xcassets */; };
+		37A48CFE2951E129006FC71B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A48CFC2951E129006FC71B /* LaunchScreen.storyboard */; };
+		37A48D072951E1C4006FC71B /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 37A48D062951E1C4006FC71B /* OpenAISwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DD8847EA1E830311BFF6B6A /* Pods_OpenAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3771C2532952C6EA008AD9D6 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		37A48CEE2951E126006FC71B /* OpenAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A48CF12951E126006FC71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37A48CF32951E126006FC71B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		37A48CF52951E126006FC71B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37A48CF82951E126006FC71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37A48CFA2951E129006FC71B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37A48CFD2951E129006FC71B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37A48CFF2951E129006FC71B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A707270165A9B2CB51CA52 /* Pods-OpenAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAI.release.xcconfig"; path = "Target Support Files/Pods-OpenAI/Pods-OpenAI.release.xcconfig"; sourceTree = "<group>"; };
+		EB5C51F2983A48EA847799BA /* Pods-OpenAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenAI.debug.xcconfig"; path = "Target Support Files/Pods-OpenAI/Pods-OpenAI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A48CEB2951E126006FC71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A48D072951E1C4006FC71B /* OpenAISwift in Frameworks */,
+				18DB51D6893420176F3B894B /* Pods_OpenAI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3771C2522952C6C4008AD9D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3771C2532952C6EA008AD9D6 /* animation.json */,
+				37A48CFA2951E129006FC71B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37A48CE52951E126006FC71B = {
+			isa = PBXGroup;
+			children = (
+				37A48CF02951E126006FC71B /* OpenAI */,
+				37A48CEF2951E126006FC71B /* Products */,
+				B61C47ABDBEAF6CF246FE0D8 /* Pods */,
+				59B40FFDD0CB09DEEBE2B730 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37A48CEF2951E126006FC71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A48CEE2951E126006FC71B /* OpenAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A48CF02951E126006FC71B /* OpenAI */ = {
+			isa = PBXGroup;
+			children = (
+				3771C2522952C6C4008AD9D6 /* Resources */,
+				37A48CF12951E126006FC71B /* AppDelegate.swift */,
+				37A48CF32951E126006FC71B /* SceneDelegate.swift */,
+				37A48CF52951E126006FC71B /* ViewController.swift */,
+				37A48CF72951E126006FC71B /* Main.storyboard */,
+				37A48CFC2951E129006FC71B /* LaunchScreen.storyboard */,
+				37A48CFF2951E129006FC71B /* Info.plist */,
+			);
+			path = OpenAI;
+			sourceTree = "<group>";
+		};
+		59B40FFDD0CB09DEEBE2B730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD8847EA1E830311BFF6B6A /* Pods_OpenAI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B61C47ABDBEAF6CF246FE0D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB5C51F2983A48EA847799BA /* Pods-OpenAI.debug.xcconfig */,
+				C1A707270165A9B2CB51CA52 /* Pods-OpenAI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A48CED2951E126006FC71B /* OpenAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A48D022951E129006FC71B /* Build configuration list for PBXNativeTarget "OpenAI" */;
+			buildPhases = (
+				51805623EEEC148789B9B975 /* [CP] Check Pods Manifest.lock */,
+				37A48CEA2951E126006FC71B /* Sources */,
+				37A48CEB2951E126006FC71B /* Frameworks */,
+				37A48CEC2951E126006FC71B /* Resources */,
+				F8CB5CE9F0E95EAAF1CF29B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenAI;
+			packageProductDependencies = (
+				37A48D062951E1C4006FC71B /* OpenAISwift */,
+			);
+			productName = OpenAI;
+			productReference = 37A48CEE2951E126006FC71B /* OpenAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A48CE62951E126006FC71B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					37A48CED2951E126006FC71B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 37A48CE92951E126006FC71B /* Build configuration list for PBXProject "OpenAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37A48CE52951E126006FC71B;
+			packageReferences = (
+				37A48D052951E1C4006FC71B /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				37A48D0A2951F001006FC71B /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = 37A48CEF2951E126006FC71B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A48CED2951E126006FC71B /* OpenAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A48CEC2951E126006FC71B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A48CFE2951E129006FC71B /* LaunchScreen.storyboard in Resources */,
+				37A48CFB2951E129006FC71B /* Assets.xcassets in Resources */,
+				3771C2542952C6EA008AD9D6 /* animation.json in Resources */,
+				37A48CF92951E126006FC71B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51805623EEEC148789B9B975 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CB5CE9F0E95EAAF1CF29B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenAI/Pods-OpenAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenAI/Pods-OpenAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenAI/Pods-OpenAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A48CEA2951E126006FC71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A48CF62951E126006FC71B /* ViewController.swift in Sources */,
+				37A48CF22951E126006FC71B /* AppDelegate.swift in Sources */,
+				37A48CF42951E126006FC71B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37A48CF72951E126006FC71B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A48CF82951E126006FC71B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37A48CFC2951E129006FC71B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A48CFD2951E129006FC71B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A48D002951E129006FC71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37A48D012951E129006FC71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A48D032951E129006FC71B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5C51F2983A48EA847799BA /* Pods-OpenAI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFW8984WKD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ask me :)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Karan.OpenAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37A48D042951E129006FC71B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A707270165A9B2CB51CA52 /* Pods-OpenAI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFW8984WKD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ask me :)";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Karan.OpenAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A48CE92951E126006FC71B /* Build configuration list for PBXProject "OpenAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A48D002951E129006FC71B /* Debug */,
+				37A48D012951E129006FC71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A48D022951E129006FC71B /* Build configuration list for PBXNativeTarget "OpenAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A48D032951E129006FC71B /* Debug */,
+				37A48D042951E129006FC71B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37A48D052951E1C4006FC71B /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		37A48D0A2951F001006FC71B /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/colealanroberts/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37A48D062951E1C4006FC71B /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37A48D052951E1C4006FC71B /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 37A48CE62951E126006FC71B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_OpenAI {
+  umbrella header "Pods-OpenAI-umbrella.h"
+
+  export *
+  module * { export * }
+}
